@@ -20,7 +20,7 @@ pipeline = compose_pipeline(add_one, square, double)
 
 # Apply the composed function
 result = pipeline(3)  # ((3 + 1) ** 2) * 2
-print(result)  # Output: 32
+print(result)  # Outputs: 32
 
 
 
